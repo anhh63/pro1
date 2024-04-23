@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<a>
     <h1>Hello Word </h1>
     <h2>Hello Word </h2>
     <h3>Hello Word </h3>
@@ -15,7 +15,85 @@
     <h6>Hello Word </h6>
     <hr>
     <p>This is a<br> paragraph</p>
-    <img src="abc.jpg" alt="good day">
-    <a href=""></a>
+    <img src="abc.jpg" alt="good day" width="300">
+    <a href="#bookmark" >
+
+        <p title='This is "a" tooltip'>
+            This is a paragraph
+        </p>
+    </a>
+    <a title="google" href="https://www.google.com" target="_blank"> 
+        <img src="a2.jpg" alt="Love" width="200">
+    </a>
+    <br>
+    <p id="bookmark"> This is a paragraph</p>
+    <ol type="1" start="1">
+        <li>List item 1</li>
+        <ul >
+            <li>IT 1</li>
+            <li>IT 2</li>
+            <li>IT 3</li>
+        </ul>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+        <li>List item 5</li>
+    </ol>
+    <table>
+        <caption>This is a caption </caption>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>last name</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>LE</td>
+                <td>AN</td>
+                <td>LK</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephhone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jell Smitth </td>
+                <td>7777-8889</td>
+                <td>7777-6666</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="server.php">
+        <fieldset>
+            <legend> Log in</legend>
+            First name: <br>
+            <input type="text" name="fistmane" value="" placeholder="First name"><br>
+            Last name: <br>
+            <input type="text" name="lastname" value="">
+            <input type="radio" name="option"> option 1
+            <input type="radio" name="option"> option 2 <br>
+            <input type="checkbox" name="checkboxes"> check 1
+            <input type="checkbox" name="checkboxes"> check 2
+            <input type="checkbox" name="checkboxes"> check 3
+            <br>
+            <label for="carSelect">Select: </label>
+            <select name="cars" id="carSelect" >
+                <option value="BMW" >BMW 0</option>
+                <option value="BMW" >BMW 1</option>
+                <option value="BMW">BMW 2</option>
+            </select>
+            <br><br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <button>click  me</button>
 </body>
 </html>
